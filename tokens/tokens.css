@@ -1,0 +1,47 @@
+/*
+ * SPDX-FileCopyrightText: The OpenArtifact Authors
+ *
+ * SPDX-License-Identifier: CC-BY-SA-4.0
+ */
+
+:root {
+  --oa-primary: #4F46E5;
+  --oa-accent: #818CF8;
+  --oa-primary-on-dark: #818CF8;
+  --oa-accent-on-dark: #C7D2FE;
+  --oa-bg: #F9FAFB;
+  --oa-surface: #FFFFFF;
+  --oa-surface-hover: #F3F4F6;
+  --oa-foreground: #111827;
+  --oa-muted: #6B7280;
+  --oa-border: #E5E7EB;
+  --oa-primary: #4F46E5;
+  --oa-primary-contrast: #FFFFFF;
+  --oa-primary-soft: #E0E7FF;
+  --oa-success: #166534;
+  --oa-success-soft: #DCFCE7;
+  --oa-warning: #854D0E;
+  --oa-warning-soft: #FEF9C3;
+  --oa-danger: #991B1B;
+  --oa-danger-soft: #FEE2E2;
+  --oa-font-sans: 'Inter', system-ui, sans-serif;
+  --oa-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+.dark, [data-theme="dark"] {
+  --oa-bg: #090B13;
+  --oa-surface: #111420;
+  --oa-surface-hover: #1A1F30;
+  --oa-foreground: #EBEEF5;
+  --oa-muted: #94A3B8;
+  --oa-border: #242A3A;
+  --oa-primary: #818CF8;
+  --oa-primary-contrast: #111827;
+  --oa-primary-soft: #3730A3;
+  --oa-success: #86EFAC;
+  --oa-success-soft: #064E3B;
+  --oa-warning: #FACC15;
+  --oa-warning-soft: #713F12;
+  --oa-danger: #F87171;
+  --oa-danger-soft: #7F1D1D;
+}

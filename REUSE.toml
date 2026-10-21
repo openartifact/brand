@@ -1,0 +1,10 @@
+version = 1
+SPDX-PackageName = "OpenArtifact brand"
+SPDX-PackageSupplier = "The OpenArtifact Authors"
+
+# Raster exports and JSON cannot carry comment headers.
+[[annotations]]
+path = ["logo/png/**", "social/*.png", "tokens/tokens.json"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "The OpenArtifact Authors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
