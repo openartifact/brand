@@ -52,11 +52,14 @@ PNG exports (transparent) are in [`logo/png/`](logo/png): marks at 16–1024 px,
 | Background | `#F9FAFB` | `#090B13` |
 | Surface | `#FFFFFF` | `#111420` |
 | Foreground | `#111827` | `#EBEEF5` |
-| Muted | `#6B7280` | `#94A3B8` |
+| Muted | `#5C6473` | `#94A3B8` |
 | Border | `#E5E7EB` | `#242A3A` |
+| Border strong (form controls, switch tracks) | `#828996` | `#646F87` |
 | Success | `#166534` | `#86EFAC` |
 | Warning | `#854D0E` | `#FACC15` |
 | Danger | `#991B1B` | `#F87171` |
+| Info | `#1D4ED8` | `#93C5FD` |
+| Severity medium | `#B45309` | `#F59E0B` |
 
 Charts use a separate 12-colour categorical palette. All values, including the soft variants, are in [`tokens/tokens.json`](tokens/tokens.json) and as CSS custom properties in [`tokens/tokens.css`](tokens/tokens.css). They mirror `web/src/style.css` and `web/src/lib/formats.ts` in the product repo; change both together.
 
