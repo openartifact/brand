@@ -107,7 +107,7 @@ def main():
     _, tw = text.wordmark(96, 0, 0, '', '')
     gx = (1280 - (200 + tw)) / 2
     words, _ = text.wordmark(96, gx + 200, 358, '#F1F5F9', '#818CF8')
-    tagline = 'Self-hosted artifact repository for 16 package formats'
+    tagline = 'Self-hosted, free-as-in-freedom artifact repository'
     _, lw = text.path(tagline, 'Medium', 30, 0, 0, 0)
     line, _ = text.path(tagline, 'Medium', 30, (1280 - lw) / 2, 470, 0)
     src = write('social/openartifact-social-dark.svg',
